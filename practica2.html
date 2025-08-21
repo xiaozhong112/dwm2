@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="practica2.css">
+</head>
+<body>
+    <seccion class="conteiner">
+            <header>Registrar Cuenta</header>
+            <form action="#" class="form">
+                <div class="input-box">
+                    <label>Nombre Completo</label>
+                    <input type="text" placeholder="Nombre Completo" required/>
+                </div>
+
+                 <div class="input-box">
+                    <label>Correo Electronico</label>
+                    <input type="text" placeholder="Correo Electronico" required/>
+                </div>
+
+                <div class="column">
+                     <div class="input-box">
+                    <label>Numero de telefono</label>
+                    <input type="number" placeholder="Numero de telefono" required/>
+                </div>
+
+                 <div class="input-box">
+                    <label>Fecha de Nacimiento</label>
+                    <input type="date" placeholder="Fecha de Nacimiento" required/>
+                </div>
+                </div>
+
+                <div class= "gender-box">
+                    <h3>Genero</h3>
+                    <div class="gender-option">
+                        <div class="gender">
+                            <input type="radio" id="check-male" name="gender" checked/>
+                            <label for="check-male">Hombre</label>
+                        </div>
+
+                        <div class="gender">
+                            <input type="radio" id="check-female" name="gender"/>
+                            <label for="check-female">Mujer</label>
+                        </div>
+                        
+                        <div class="gender">
+                            <input type="radio" id="check-other" name="gender"/>
+                            <label for="check-other">Otro</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="input-box address"  >
+                    <label>Direccion</label>
+                    <div class="column">
+                        <div class="select-box">
+                            <select>
+                                <option hidden>Region</option>
+                                <option>Arica y Parinacota</option>
+                                <option>Tarapacá</option>
+                                <option>Antofagasta</option>
+                                <option>Atacama</option>
+                                <option>Coquimbo</option>
+                                <option>Metropolitana</option>
+                                <option>O'Higgins</option>
+                                <option>Maule</option>
+                                <option>Ñuble</option>
+                                <option>Biobío</option>
+                                <option>La Araucanía</option>
+                                <option>La Araucanía</option>
+                                <option>Los Lagos</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="select-box">
+                            <select>
+                                <option>Comuna</option>
+                            </select>
+                        </div>
+                    </div>
+                    <input type="text" placeholder="Direccion" required/>
+                    <input type="number" placeholder="Numero" required/>
+                    <input type="text" placeholder="Casa o Dep" required/>
+                </div>
+                
+                <button>Enviar</button>
+            </form>
+    </seccion>
+</body>
+</html>
